@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator_Selectors</title>
+    <!-- Element has to be next to the targated element & should have same parent -->
+
+    <style>
+        div+p{
+            background-color: yellowgreen   ;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <!-- here para5 is targeted bcoz its adjacent to targeted element -->
+    <div>
+        <p>Para1</p>
+        <p>Para2</p>
+        <p>Para3</p>
+    </div>
+    <p>Para5</p>
+    <section>
+        <p>Para4</p>
+    </section> 
+    
+</body>
+</html>
